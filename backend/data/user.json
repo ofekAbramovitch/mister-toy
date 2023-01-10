@@ -1,0 +1,30 @@
+[
+  
+    {
+      "fullName": "Yaniv Asaf",
+      "username": "yaniv1",
+      "password": "yaniv123",
+      "isAdmin": false,
+      "_id": "lfcAO",
+      "createdAt": 1599074622555
+    },
+    
+    {
+      "fullName": "Ricky Lake",
+      "username": "rick",
+      "password": "1234",
+      "isAdmin": false,
+      "_id": "cb0HM",
+      "createdAt": 1599073368512
+    },
+    
+    
+    {
+      "_id": "u102",
+      "fullName": "itzik",
+      "username": "itzik1",
+      "password": "itzik123",
+      "isAdmin": true,
+      "createdAt": 1598948593211
+    }
+  ]
