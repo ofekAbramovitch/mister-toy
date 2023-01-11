@@ -10,7 +10,6 @@ export function ToyFilter({ handleChange, filterBy }) {
     function handleSelect(labels) {
         setSelectedOptions(labels)
         const labelsToSet = labels.length ? labels.map(i => i.value) : []
-        setFilterByToEdit((prevFilter) => ({ ...prevFilter, label: labelsToSet }))
     }
 
     return <div className="filter-container">
