@@ -8,6 +8,7 @@ import { HomePage } from './pages/home-page'
 import { UserMsg } from './cmps/user-msg'
 import { Provider } from 'react-redux'
 import { store } from './store/store.js'
+import { Chart } from './pages/dashboard'
 
 export function App() {
   return (
@@ -20,6 +21,7 @@ export function App() {
           <Route element={<ToyEdit />} path="/toy/edit" />
           <Route element={<ToyIndex />} path="/toy" />
           <Route element={<HomePage />} path="/" />
+          <Route element={<Chart />} path="/chart" />
         </Routes>
         <UserMsg />
       </main >

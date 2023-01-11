@@ -7,6 +7,7 @@ export const Header = () => {
             <h1>These are our toys</h1>
             <NavLink className="header-link" to="/">Home</NavLink>
             <NavLink className="header-link" to="/toy">Toys</NavLink>
+            <NavLink className="header-link" to="/chart">Chart</NavLink>
         </nav>
     </header>
 }

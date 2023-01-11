@@ -1,6 +1,18 @@
 import React from 'react'
+import { useEffect, useRef, useState } from "react"
+import Select from "react-select"
+
+import { toyService } from "../services/toy.service.js"
 
 export function ToyFilter({ handleChange, filterBy }) {
+    const [selectedOptions, setSelectedOptions] = useState()
+
+    function handleSelect(labels) {
+        setSelectedOptions(labels)
+        const labelsToSet = labels.length ? labels.map(i => i.value) : []
+        setFilterByToEdit((prevFilter) => ({ ...prevFilter, label: labelsToSet }))
+    }
+
     return <div className="filter-container">
         <form className={'form-filter'}>
             <label className='filter-label'>
@@ -49,6 +61,13 @@ export function ToyFilter({ handleChange, filterBy }) {
                     className="check-box"
                 />
             </label>
+            <Select
+                options={toyService.getLabels().map((label) => ({ value: label, label }))}
+                placeholder="Select labels"
+                value={selectedOptions}
+                onChange={handleSelect}
+                isMulti={true}
+            />
         </form>
     </div>
 }
