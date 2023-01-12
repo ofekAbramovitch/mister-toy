@@ -1,0 +1,33 @@
+.toy-preview img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+  .toy-preview .remove-toy-btn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 1%;
+    right: 1.5%;
+  }
+  
+  .toy-prev-btns {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .toy-prev-btns>* {
+    margin: 0.8rem
+  }
+  
+  .toy-prev-btns .btn-link {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0%;
+    width: 20%;
+    box-shadow: none;
+  }
+  
+  .toy-name {
+    font-size: 20px;
+    font-weight: 600;
+  }

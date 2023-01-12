@@ -1,0 +1,86 @@
+.filter-label {
+    display: flex;
+    margin-right: 5px;
+  }
+  
+  .form-filter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .filter-label input {
+    border-color: aliceblue;
+  }
+  
+  .btn-add {
+    background-color: lightblue;
+    max-width: 90px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    max-height: 50px;
+  }
+  
+  .btn-remove {
+    background-color: inherit;
+    border: none;
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .btn-remove:hover {
+    cursor: pointer;
+  }
+  
+  .main-control-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .filter-container {
+    max-height: 100px;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+  }
+  
+  .filter-container .check-box {
+    display: inline;
+  }
+
+  .multi-select {
+    position: relative;
+  }
+  
+  .multi-select .selected-options-container {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .multi-select .options-container {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .multi-select .options-container.open {
+    display: unset;
+  }
+  
+  
+  .multi-select .options-container>* {
+    padding: 5px;
+    border: 1px solid black;
+    background: white;
+  }

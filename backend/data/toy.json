@@ -28,20 +28,6 @@
     ]
   },
   {
-    "_id": "118070",
-    "name": "lorem morbi",
-    "price": 39,
-    "type": "Educational",
-    "createdAt": "1999-06-05T11:31:01.936Z",
-    "inStock": true,
-    "labels": [
-      "Art",
-      "Educational",
-      "Adult",
-      "Funny"
-    ]
-  },
-  {
     "_id": "118071",
     "name": "eget at",
     "price": 12,
@@ -83,10 +69,10 @@
   {
     "_id": "118074",
     "name": "nullam vel",
-    "price": 38,
+    "price": 33,
     "type": "Adult",
     "createdAt": "1983-03-13T23:10:02.008Z",
-    "inStock": true,
+    "inStock": false,
     "labels": [
       "Funny"
     ]

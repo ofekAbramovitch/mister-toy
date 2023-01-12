@@ -1,0 +1,16 @@
+/* setup */
+@import './setup/variables.scss';
+
+/* basics */
+@import './basics/base.scss';
+@import './basics/helpers.scss';
+@import './basics/layout.scss';
+
+/* components */
+@import './cmps/header.scss';
+@import './cmps/dashboard.scss';
+@import './cmps/toy-list.scss';
+@import './cmps/toy-preview.scss';
+@import './cmps/toy-edit.scss';
+@import './cmps/toy-filter.scss';
+@import './cmps/user-msg.scss';

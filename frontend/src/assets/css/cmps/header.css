@@ -1,0 +1,21 @@
+.main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    background-color: rgb(33, 30, 30);
+  }
+  
+  .main-header h1 {
+    color: goldenrod;
+  }
+  
+  .header-link {
+    margin: 5px;
+    font-size: 18px;
+    color: goldenrod;
+  }
+  
+  .header-link:hover {
+    opacity: 0.8;
+  }
