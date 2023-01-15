@@ -8,13 +8,13 @@ export const toyService = {
     getEmptyToy,
     getDefaultFilterBy,
     getDefaultSort,
-    getLabels
+    getLabels,
+    addToyMsg
 }
 
 const labels = ["On wheels", "Box game", "Art", "Baby", "Doll", "Puzzle", "Outdoor", "Battery Powered"]
 
 function query(filterBy, sort) {
-    
     return httpService.get('toy', { params: { filterBy, sort } })
 }
 
@@ -30,12 +30,14 @@ function remove(toyId) {
     return httpService.delete(`toy/${toyId}`)
 }
 
-function save(toy) {
+async function save(toy) {
+    var savedToy
     if (toy._id) {
-        return httpService.put(`toy/${toy._id}`, toy)
+        savedToy = await httpService.put(`toy/${toy._id}`, toy)
     } else {
-        return httpService.post('toy', toy)
+        savedToy = await httpService.post('toy', toy)
     }
+    return savedToy
 }
 
 function getEmptyToy() {
@@ -58,8 +60,13 @@ function getDefaultFilterBy() {
 
 function getDefaultSort() {
     return {
-        // 
         by: 'name',
         asc: true
     }
 }
+
+async function addToyMsg(toyId, txt) {
+    const savedMsg = await httpService.post(`toy/${toyId}/msg`, {txt})
+    return savedMsg
+}
+

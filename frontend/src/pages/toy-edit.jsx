@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from "react-router-dom"
 import { MultiSelect } from '../cmps/multiselect'
 import { toyService } from '../services/toy.service'
-import { saveToy } from "../store/actions/toy.action"
+import { addToy } from "../store/actions/toy.action"
 import { showErrorMsg, showSuccessMsg } from './../services/event-bus.service'
 
 export function ToyEdit() {
@@ -11,11 +11,14 @@ export function ToyEdit() {
     const { toyId } = useParams()
     const navigate = useNavigate()
 
-    useEffect(() => {
+    useEffect(async () => {
         if (!toyId) return
-        toyService.getById(toyId).then(toy => {
+        try {
+            const toy = await toyService.getById(toyId)
             setToyToEdit(toy)
-        })
+        } catch (err) {
+
+        }
     }, [])
 
     function handleChange(ev) {
@@ -28,22 +31,21 @@ export function ToyEdit() {
         setToyToEdit({ ...toyToEdit, labels })
     }
 
-    function onSave(ev) {
+    async function onSave(ev) {
         ev.preventDefault()
 
         const newToy = {
             ...toyToEdit,
             inStock: (toyToEdit.inStock === 'true') ? true : false
         }
-        
-        saveToy(newToy)
-            .then(() => {
-                showSuccessMsg('Toy saved successfully')
-                navigate('/toy')
-            })
-            .catch(err => {
-                showErrorMsg('Can not save toy, please try again')
-            })
+
+        try {
+            await addToy(newToy)
+            showSuccessMsg('Toy saved successfully')
+            navigate('/toy')
+        } catch (err) {
+            showErrorMsg('Can not save toy, please try again')
+        }
     }
 
     function getYesNo() {

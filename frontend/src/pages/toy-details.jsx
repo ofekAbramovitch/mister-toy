@@ -15,13 +15,14 @@ export function ToyDetails() {
         loadToy()
     })
 
-    function loadToy() {
-        toyService.getById(toyId)
-            .then(setToy)
-            .catch((err) => {
-                showErrorMsg('Cant load toy')
-                navigate('/toy')
-            })
+    async function loadToy() {
+        try {
+            const toy = await toyService.getById(toyId)
+            setToy(toy)
+        } catch (err) {
+            showErrorMsg('Cant load toy')
+            navigate('/toy')
+        }
     }
 
     if (!toy) return <div>Loading...</div>
@@ -32,6 +33,7 @@ export function ToyDetails() {
             <h2>Type: <span>{toy.type}</span></h2>
             <h2>Created at: <span>{toy.createdAt}</span></h2>
             <h2>In Stock: <span>{(toy.inStock) ? 'yes' : 'no'}</span></h2>
+            <h2>Messages: <span>{toy.msgs.txt}</span></h2>
         </div>
     )
 }

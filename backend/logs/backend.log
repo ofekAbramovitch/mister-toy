@@ -15,3 +15,176 @@
 12.1.2023, 19:37:05 - INFO - Server is running on port: 3030 
 12.1.2023, 19:37:17 - INFO - Server is running on port: 3030 
 12.1.2023, 19:37:20 - INFO - Server is running on port: 3030 
+12.1.2023, 19:40:21 - INFO - Server is running on port: 3030 
+12.1.2023, 19:40:47 - INFO - Req was made 
+12.1.2023, 19:40:47 - DEBUG - Getting toys 
+12.1.2023, 19:40:47 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+12.1.2023, 19:40:47 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+12.1.2023, 19:48:34 - INFO - Server is running on port: 3030 
+12.1.2023, 19:48:54 - INFO - Req was made 
+12.1.2023, 19:48:54 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+12.1.2023, 19:48:54 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+12.1.2023, 19:48:54 - DEBUG - Getting toys 
+12.1.2023, 19:50:21 - INFO - Server is running on port: 3030 
+12.1.2023, 19:50:22 - INFO - Server is running on port: 3030 
+12.1.2023, 19:51:27 - INFO - Req was made 
+12.1.2023, 19:51:27 - DEBUG - Getting toys 
+12.1.2023, 19:51:27 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+12.1.2023, 19:51:27 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+14.1.2023, 20:40:59 - INFO - Req was made 
+14.1.2023, 20:40:59 - DEBUG - Getting toys 
+14.1.2023, 20:40:59 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+14.1.2023, 20:40:59 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+14.1.2023, 21:12:01 - DEBUG - Getting toys 
+14.1.2023, 21:12:01 - INFO - Req was made 
+14.1.2023, 21:12:01 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+14.1.2023, 21:12:01 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+14.1.2023, 21:12:02 - INFO - Req was made 
+14.1.2023, 21:12:02 - DEBUG - Getting toys 
+14.1.2023, 21:12:02 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+14.1.2023, 21:12:02 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+14.1.2023, 21:12:05 - INFO - Req was made 
+14.1.2023, 21:12:05 - DEBUG - Getting toys 
+14.1.2023, 21:12:05 - ERROR - cannot find toys | ReferenceError: logger is not defined 
+14.1.2023, 21:12:05 - ERROR - Failed to get toys | ReferenceError: logger is not defined 
+14.1.2023, 21:22:47 - INFO - Server is running on port: 3030 
+14.1.2023, 21:22:49 - INFO - Server is running on port: 3030 
+14.1.2023, 21:22:52 - INFO - Server is running on port: 3030 
+14.1.2023, 21:22:54 - INFO - Server is running on port: 3030 
+14.1.2023, 21:22:58 - INFO - Server is running on port: 3030 
+14.1.2023, 21:23:01 - INFO - Server is running on port: 3030 
+14.1.2023, 21:23:03 - INFO - Server is running on port: 3030 
+14.1.2023, 21:23:06 - INFO - Server is running on port: 3030 
+14.1.2023, 21:23:13 - INFO - Req was made 
+14.1.2023, 21:23:13 - DEBUG - Getting toys 
+14.1.2023, 21:23:54 - INFO - Server is running on port: 3030 
+14.1.2023, 21:24:09 - INFO - Req was made 
+14.1.2023, 21:24:09 - DEBUG - Getting toys 
+14.1.2023, 21:24:19 - INFO - Req was made 
+14.1.2023, 21:24:19 - DEBUG - Getting toys 
+14.1.2023, 21:42:40 - INFO - Req was made 
+14.1.2023, 21:42:40 - DEBUG - Getting toys 
+14.1.2023, 21:43:35 - INFO - Req was made 
+14.1.2023, 21:43:35 - DEBUG - Getting toys 
+14.1.2023, 21:44:19 - INFO - Req was made 
+14.1.2023, 21:44:19 - DEBUG - Getting toys 
+14.1.2023, 21:44:45 - INFO - Req was made 
+14.1.2023, 21:44:45 - DEBUG - Getting toys 
+14.1.2023, 21:44:46 - INFO - Req was made 
+14.1.2023, 21:44:46 - DEBUG - Getting toys 
+14.1.2023, 21:45:03 - DEBUG - Getting toys 
+14.1.2023, 21:45:03 - INFO - Req was made 
+14.1.2023, 21:45:08 - INFO - Req was made 
+14.1.2023, 21:45:08 - DEBUG - Getting toys 
+14.1.2023, 21:45:10 - INFO - Req was made 
+14.1.2023, 21:45:10 - DEBUG - Getting toys 
+14.1.2023, 21:45:17 - INFO - Req was made 
+14.1.2023, 21:45:17 - DEBUG - Getting toys 
+14.1.2023, 21:45:24 - INFO - Req was made 
+14.1.2023, 21:45:24 - DEBUG - Getting toys 
+14.1.2023, 21:45:39 - INFO - Req was made 
+14.1.2023, 21:45:39 - DEBUG - Getting toys 
+14.1.2023, 21:45:42 - INFO - Req was made 
+14.1.2023, 21:45:42 - DEBUG - Getting toys 
+14.1.2023, 21:45:52 - INFO - Req was made 
+14.1.2023, 21:45:52 - DEBUG - Getting toys 
+14.1.2023, 21:46:01 - DEBUG - Getting toys 
+14.1.2023, 21:46:01 - INFO - Req was made 
+14.1.2023, 21:46:05 - DEBUG - Getting toys 
+14.1.2023, 21:46:05 - INFO - Req was made 
+14.1.2023, 21:46:11 - INFO - Req was made 
+14.1.2023, 21:46:11 - DEBUG - Getting toys 
+14.1.2023, 21:46:17 - INFO - Req was made 
+14.1.2023, 21:46:17 - DEBUG - Getting toys 
+14.1.2023, 21:46:21 - INFO - Req was made 
+14.1.2023, 21:46:21 - DEBUG - Getting toys 
+14.1.2023, 21:52:26 - INFO - Req was made 
+14.1.2023, 21:52:26 - DEBUG - Getting toys 
+14.1.2023, 21:54:56 - DEBUG - Getting toys 
+14.1.2023, 21:54:56 - INFO - Req was made 
+14.1.2023, 21:55:25 - INFO - Req was made 
+14.1.2023, 21:55:25 - DEBUG - Getting toys 
+14.1.2023, 21:56:51 - INFO - Server is running on port: 3030 
+15.1.2023, 16:36:40 - INFO - Server is running on port: 3030 
+15.1.2023, 16:37:40 - INFO - Req was made 
+15.1.2023, 16:37:40 - DEBUG - Getting toys 
+15.1.2023, 16:44:23 - INFO - Server is running on port: 3030 
+15.1.2023, 16:44:55 - INFO - Req was made 
+15.1.2023, 16:44:55 - DEBUG - Getting toys 
+15.1.2023, 18:03:14 - INFO - Server is running on port: 3030 
+15.1.2023, 18:03:22 - INFO - Server is running on port: 3030 
+15.1.2023, 18:03:42 - INFO - Server is running on port: 3030 
+15.1.2023, 18:03:55 - INFO - Server is running on port: 3030 
+15.1.2023, 18:17:36 - INFO - Server is running on port: 3030 
+15.1.2023, 18:17:47 - INFO - Server is running on port: 3030 
+15.1.2023, 18:17:50 - INFO - Server is running on port: 3030 
+15.1.2023, 18:17:53 - INFO - Server is running on port: 3030 
+15.1.2023, 18:19:32 - INFO - Server is running on port: 3030 
+15.1.2023, 18:29:07 - INFO - Server is running on port: 3030 
+15.1.2023, 18:29:24 - INFO - Req was made 
+15.1.2023, 18:29:24 - DEBUG - Getting toys 
+15.1.2023, 18:31:25 - DEBUG - Getting toys 
+15.1.2023, 18:31:25 - INFO - Req was made 
+15.1.2023, 18:32:32 - DEBUG - Getting toys 
+15.1.2023, 18:32:32 - INFO - Req was made 
+15.1.2023, 18:34:43 - INFO - Req was made 
+15.1.2023, 18:34:43 - DEBUG - Getting toys 
+15.1.2023, 18:36:57 - INFO - Server is running on port: 3030 
+15.1.2023, 18:58:24 - INFO - Req was made 
+15.1.2023, 18:58:24 - DEBUG - Getting toys 
+15.1.2023, 18:58:25 - INFO - Req was made 
+15.1.2023, 18:58:25 - DEBUG - Getting toys 
+15.1.2023, 18:58:34 - INFO - Req was made 
+15.1.2023, 18:58:34 - DEBUG - Getting toys 
+15.1.2023, 19:26:17 - DEBUG - Getting toys 
+15.1.2023, 19:26:17 - INFO - Req was made 
+15.1.2023, 19:26:47 - DEBUG - Getting toys 
+15.1.2023, 19:26:47 - INFO - Req was made 
+15.1.2023, 19:27:05 - INFO - Req was made 
+15.1.2023, 19:27:05 - DEBUG - Getting toys 
+15.1.2023, 19:27:08 - INFO - Req was made 
+15.1.2023, 19:27:08 - DEBUG - Getting toys 
+15.1.2023, 19:27:34 - INFO - Req was made 
+15.1.2023, 19:27:34 - DEBUG - Getting toys 
+15.1.2023, 19:27:35 - DEBUG - Getting toys 
+15.1.2023, 19:27:35 - INFO - Req was made 
+15.1.2023, 19:27:42 - INFO - Req was made 
+15.1.2023, 19:27:42 - DEBUG - Getting toys 
+15.1.2023, 19:28:41 - DEBUG - Getting toys 
+15.1.2023, 19:28:41 - INFO - Req was made 
+15.1.2023, 19:28:51 - INFO - Req was made 
+15.1.2023, 19:28:51 - DEBUG - Getting toys 
+15.1.2023, 19:28:52 - INFO - Req was made 
+15.1.2023, 19:28:52 - DEBUG - Getting toys 
+15.1.2023, 19:31:00 - INFO - Req was made 
+15.1.2023, 19:31:00 - DEBUG - Getting toys 
+15.1.2023, 19:43:35 - INFO - Server is running on port: 3030 
+15.1.2023, 19:43:59 - INFO - Server is running on port: 3030 
+15.1.2023, 19:44:08 - INFO - Server is running on port: 3030 
+15.1.2023, 19:44:32 - INFO - Server is running on port: 3030 
+15.1.2023, 19:44:35 - INFO - Server is running on port: 3030 
+15.1.2023, 19:44:39 - INFO - Server is running on port: 3030 
+15.1.2023, 19:44:41 - INFO - Server is running on port: 3030 
+15.1.2023, 19:44:51 - INFO - Server is running on port: 3030 
+15.1.2023, 19:45:26 - INFO - Server is running on port: 3030 
+15.1.2023, 19:45:28 - INFO - Server is running on port: 3030 
+15.1.2023, 19:46:02 - INFO - Server is running on port: 3030 
+15.1.2023, 19:46:08 - INFO - Server is running on port: 3030 
+15.1.2023, 19:46:24 - INFO - Server is running on port: 3030 
+15.1.2023, 19:48:46 - INFO - Server is running on port: 3030 
+15.1.2023, 19:49:29 - INFO - Server is running on port: 3030 
+15.1.2023, 19:49:39 - INFO - Server is running on port: 3030 
+15.1.2023, 19:50:10 - INFO - Server is running on port: 3030 
+15.1.2023, 19:50:24 - INFO - Server is running on port: 3030 
+15.1.2023, 19:50:30 - INFO - Server is running on port: 3030 
+15.1.2023, 19:50:33 - INFO - Server is running on port: 3030 
+15.1.2023, 19:50:43 - INFO - Server is running on port: 3030 
+15.1.2023, 19:51:05 - INFO - Req was made 
+15.1.2023, 19:51:05 - DEBUG - Getting toys 
+15.1.2023, 19:51:12 - INFO - Req was made 
+15.1.2023, 19:51:12 - DEBUG - Getting toys 
+15.1.2023, 20:18:34 - INFO - Server is running on port: 3030 
+15.1.2023, 20:29:45 - INFO - Server is running on port: 3030 
+15.1.2023, 20:29:59 - INFO - Req was made 
+15.1.2023, 20:29:59 - DEBUG - Getting toys 
+15.1.2023, 20:29:59 - ERROR - Cannot Connect to DB | TypeError: Cannot read properties of undefined (reading 'startsWith') 

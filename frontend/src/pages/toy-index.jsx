@@ -16,23 +16,25 @@ export function ToyIndex() {
     const [sort, setSort] = useState(toyService.getDefaultSort())
 
     useEffect(() => {
-        loadToys(filterBy, sort)
-            .then(() => {
+        async function fetchToys() {
+            try {
+                await loadToys(filterBy, sort)
                 console.log('Loaded successfully')
-            })
-            .catch((err) => {
+            } catch (err) {
                 showErrorMsg('Oops.. something went wrong, try again')
-            })
+            }
+
+        }
+        fetchToys()
     }, [filterBy, sort])
 
-    function onRemoveToy(toyId) {
-        removeToy(toyId)
-            .then(() => {
-                showSuccessMsg('Toy removed successfully')
-            })
-            .catch(err => {
-                showErrorMsg('Cant remove toy, try again.')
-            })
+    async function onRemoveToy(toyId) {
+        try {
+            await removeToy(toyId)
+            showSuccessMsg('Toy removed successfully')
+        } catch (err) {
+            showErrorMsg('Cant remove toy, try again.')
+        }
     }
 
     function handleChange(ev) {

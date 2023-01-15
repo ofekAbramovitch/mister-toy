@@ -12,15 +12,14 @@ export function Chart() {
     ], [])
 
     function getChartsData() {
-        const chartsData = toys.reduce(
-            (acc, toy) => {
-                toy.labels.forEach((label) => {
-                    acc.labelsCountMap[label] = acc.labelsCountMap[label] ? ++acc.labelsCountMap[label] : 1
-                    acc.labelsPriceMap[label] = acc.labelsPriceMap[label] ? (acc.labelsPriceMap[label] += toy.price) : toy.price
-                })
+        const chartsData = toys.reduce((acc, toy) => {
+            toy.labels.forEach((label) => {
+                acc.labelsCountMap[label] = acc.labelsCountMap[label] ? ++acc.labelsCountMap[label] : 1
+                acc.labelsPriceMap[label] = acc.labelsPriceMap[label] ? (acc.labelsPriceMap[label] += toy.price) : toy.price
+            })
 
-                return acc
-            },
+            return acc
+        },
             { labelsCountMap: {}, labelsPriceMap: {} }
         )
         Object.keys(chartsData.labelsPriceMap).forEach((label) => (chartsData.labelsPriceMap[label] /= chartsData.labelsCountMap[label]))

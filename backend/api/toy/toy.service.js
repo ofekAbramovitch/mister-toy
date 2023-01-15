@@ -22,8 +22,8 @@ async function query(filterBy = { txt: '' }, sort) {
         let toys = await collection.find(criteria).toArray()
         return toys
     } catch (err) {
-        logger.error('cannot find toys', err)
-        throw err
+        // logger.error('cannot find toys', err)
+        // throw err
     }
 }
 
@@ -33,8 +33,8 @@ async function getById(toyId) {
         const toy = collection.findOne({ _id: ObjectId(toyId) })
         return toy
     } catch (err) {
-        logger.error(`while finding toy ${toyId}`, err)
-        throw err
+        // logger.error(`while finding toy ${toyId}`, err)
+        // throw err
     }
 }
 
@@ -44,8 +44,8 @@ async function remove(toyId) {
         await collection.deleteOne({ _id: ObjectId(toyId) })
         return toyId
     } catch (err) {
-        logger.error(`cannot remove toy ${toyId}`, err)
-        throw err
+        // logger.error(`cannot remove toy ${toyId}`, err)
+        // throw err
     }
 }
 
@@ -55,8 +55,8 @@ async function add(toy) {
         await collection.insertOne(toy)
         return toy
     } catch (err) {
-        logger.error('cannot insert toy', err)
-        throw err
+        // logger.error('cannot insert toy', err)
+        // throw err
     }
 }
 
@@ -74,8 +74,8 @@ async function update(toy) {
         await collection.updateOne({ _id: ObjectId(toy._id) }, { $set: toyToSave })
         return toy
     } catch (err) {
-        logger.error(`cannot update toy ${toy._id}`, err)
-        throw err
+        // logger.error(`cannot update toy ${toy._id}`, err)
+        // throw err
     }
 }
 
@@ -86,8 +86,8 @@ async function addToyMsg(toyId, msg) {
         await collection.updateOne({ _id: ObjectId(toyId) }, { $push: { msgs: msg } })
         return msg
     } catch (err) {
-        logger.error(`cannot add toy msg ${toyId}`, err)
-        throw err
+        // logger.error(`cannot add toy msg ${toyId}`, err)
+        // throw err
     }
 }
 
@@ -97,8 +97,8 @@ async function removeToyMsg(toyId, msgId) {
         await collection.updateOne({ _id: ObjectId(toyId) }, { $pull: { msgs: {id: msgId} } })
         return msgId
     } catch (err) {
-        logger.error(`cannot add toy msg ${toyId}`, err)
-        throw err
+        // logger.error(`cannot add toy msg ${toyId}`, err)
+        // throw err
     }
 }
 

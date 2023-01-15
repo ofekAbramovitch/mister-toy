@@ -9,7 +9,7 @@ router.get('/:id', getToyById)
 router.post('/', requireAuth, addToy)
 router.put('/:id', requireAuth, updateToy)
 router.delete('/:id', requireAuth, removeToy)
-// router.delete('/:id', requireAuth, requireAdmin, removeCar)
+// router.delete('/:id', requireAuth, requireAdmin, removetoy)
 
 router.post('/:id/msg', requireAuth, addToyMsg)
 router.delete('/:id/msg/:msgId', requireAuth, removeToyMsg)

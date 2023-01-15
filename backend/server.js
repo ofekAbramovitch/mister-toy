@@ -24,10 +24,15 @@ if (process.env.NODE_ENV === 'production') {
 const authRoutes = require('./api/auth/auth.route.js')
 const userRoutes = require('./api/user/user.route.js')
 const toyRoutes = require('./api/toy/toy.route.js')
+const reviewRoutes = require('./api/review/review.route.js')
+
+const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
+app.all('*', setupAsyncLocalStorage)
 
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/toy', toyRoutes)
+app.use('/api/review', reviewRoutes)
 
 app.get('/**', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'))
